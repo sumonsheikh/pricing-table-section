@@ -26,6 +26,7 @@ section.section-padding {
 .single-pricing-table {
     border: 1px solid #c5c5c5;
     padding: 15px 20px 15px;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
 }
 .single-pricing-table:hover{
@@ -58,13 +59,14 @@ section.section-padding {
     font-size: 15px;
     color: #777676;
     line-height: 2;
+    -webkit-transition: 0.2s;
     transition: 0.2s;
 }
 .pricing-list ul li:hover{
     padding-left:3px;
 }
 
-.pricing-list ul li::before {
+.pricing-list ul li:before {
     font-family: fontAwesome;
     content: "\f00c";
     color: #04CE72;
@@ -74,7 +76,7 @@ section.section-padding {
 
 
 
-.pricing-list ul li.off::before {
+.pricing-list ul li.off:before {
     font-family: fontAwesome;
     content:"\f00d";
     color:rgba(202, 52, 52, 0.856);
@@ -89,6 +91,7 @@ a.border-btn {
     border-radius: 50px;
     margin: 20px 0;
     color: #5c5b5b;
+    -webkit-transition: 0.9s;
     transition: 0.9s;
     text-decoration: none;
     
